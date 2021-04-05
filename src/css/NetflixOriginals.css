@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Netflix Sans";
+    src: url('../font/Netflix\ Sans\ Light.otf');
+}
+
+.spinnerOriginals {
+    padding-right: 38px;
+    display: block;
+    transform: translateY(-10%);
+    max-width: 100%;
+    padding-bottom: 38px;
+}
+
+.cardOriginals {
+    overflow: hidden;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    right: 0px;
+    position: relative;
+}
+
+.imagePreviewOriginals {
+    width: 240px;
+    height: 470px;
+    object-fit: cover;
+}
+
+.cardOriginals:hover .infoHoverOriginals {
+    visibility: visible;
+}
+
+.cardOriginals:hover { 
+    position: relative;
+    z-index: 3;
+    background-color: #181818;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.infoHoverOriginals {
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 4;
+
+    margin-top: 10px;
+    color: white;
+    visibility: hidden;
+}
+
+.infoHoverIconsOriginals {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.infoHoverIconsOriginals:first-child {
+    margin-left: 15px;
+}
+
+.infoHoverIconsOriginals:last-child {
+    margin-left: 70px;
+}
+
+.leftArrowOriginals {
+    left: 0px;
+    z-index: 1;
+    position:absolute;
+}
+
+.rightArrowOriginals {
+    right: 0px;
+    z-index: 1 ;
+    position:absolute;
+}
+
+.arrowStyleOriginals {
+    outline: none;
+    background-color: rgba(20,20,20,.5);
+    border: none;
+    width: 80px;
+    height: 470px;
+}
+
+.arrowStyleOriginals img {
+    visibility: hidden;
+    width: 70px;
+    height: 90px;
+}
+
+.arrowStyleOriginals:hover img {
+    visibility: visible;
+}

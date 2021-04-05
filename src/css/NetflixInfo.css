@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Netflix Sans";
+    src: url('../font/Netflix\ Sans\ Light.otf');
+}
+
+.netflixInfo {
+    padding-left: 150px;
+    padding-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.socialMediaIcons {
+    margin-right: 25px;
+    width: 27px;
+    height: 27px;
+    margin-bottom: 10px;
+}
+
+.extraInfo {
+    padding: 0px;
+    list-style-type: none;
+    color: #9F9F9F;
+    font-family: "Netflix Sans";
+    font-size: 12px;
+}
+
+.extraInfo li {
+    width: 220px;
+    height: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}

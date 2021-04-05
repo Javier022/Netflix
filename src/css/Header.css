@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Netflix Sans";
+    src: url('../font/Netflix\ Sans\ Light.otf');
+}
+
+body {
+    background-color: #141414;
+    margin: 0px;
+    overflow-X:hidden;
+    height:100%;
+}
+
+.header {
+    display: flex;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    z-index: 1;
+    position: fixed;
+}
+
+.horizontalList {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Netflix Sans";
+    font-weight:normal;
+    font-size:13px;
+    padding: 0%;
+    color: white;
+}
+
+.horizontalList li {
+    display:inline;
+    margin-left: 18px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.horizontalList li:first-child {
+    font-weight: bold;
+}
+
+
+.logo {
+    display:flex;
+    width: 8%;
+    height: 8%;
+    margin-right: 20px;
+}
+
+.icons {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:auto;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.perfil {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 25px;
+}

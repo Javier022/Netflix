@@ -1,0 +1,83 @@
+.preview {
+    z-index: 0;
+    position: fixed;
+    height: 45vw;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.info {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    font-family: Arial;
+}
+
+.info img {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.info div {
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+
+.info p {
+    width: 400px;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 5px black;
+}
+
+.buttons {
+    text-align: center;
+    display: inline-block;
+}
+
+.play {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border: none;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.play img {
+    width: 20px;
+    height: 17px;
+    margin: 0px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.buttonInfo {
+    background-color: rgba(128, 128, 128, 0.5);
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.buttonInfo img {
+    width: 20px;
+    height: 17px;
+    margin: 0px;
+    padding-right: 10px;
+    vertical-align: middle;
+
+}
