@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import '../../public/css/Header.css'
-import logo from '../../public/images/netflix_logo.png'
-import search from '../../public/images/search.png'
-import gift from '../../public/images/gift.png'
-import notification from '../../public/images/notification.png'
-import perfil from '../../public/images/perfil.png'
-import arrow from '../../public/images/arrow.png'
+import '../../../public/css/Header.css'
+import logo from '../../../public/images/netflix_logo.png'
+import search from '../../../public/images/search.png'
+import gift from '../../../public/images/gift.png'
+import notification from '../../../public/images/notification.png'
+import perfil from '../../../public/images/perfil.png'
+import arrow from '../../../public/images/arrow.png'
 
 const Options = ({ actualBackground }) => {
   const background = {

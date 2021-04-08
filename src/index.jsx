@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Header from './components/Header'
-import Preview from './components/Preview'
-import Recommendations from './components/Recommendations'
-import NetflixInfo from './components/NetflixInfo'
+import Header from './client/components/Header'
+import Preview from './client/components/Preview'
+import Recommendations from './client/components/Recommendations'
+import NetflixInfo from './client/components/NetflixInfo'
 
 const App = () => (
   <div>

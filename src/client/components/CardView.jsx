@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import '../../public/css/CardView.css'
-import sliderL from '../../public/images/hover/sliderArrowL.png'
-import sliderR from '../../public/images/hover/sliderArrowR.png'
-import play from '../../public/images/hover/play.png'
-import add from '../../public/images/hover/add.png'
-import like from '../../public/images/hover/like.png'
-import dislike from '../../public/images/hover/dislike.png'
-import arrow from '../../public/images/hover/arrow.png'
+import '../../../public/css/CardView.css'
+import sliderL from '../../../public/images/hover/sliderArrowL.png'
+import sliderR from '../../../public/images/hover/sliderArrowR.png'
+import play from '../../../public/images/hover/play.png'
+import add from '../../../public/images/hover/add.png'
+import like from '../../../public/images/hover/like.png'
+import dislike from '../../../public/images/hover/dislike.png'
+import arrow from '../../../public/images/hover/arrow.png'
 
 const Card = ({ imageShow, actualMove }) => {
   const move = {

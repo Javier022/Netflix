@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import '../../public/css/CardView.css'
-import '../../public/css/NetflixOriginals.css'
-import sliderL from '../../public/images/hover/sliderArrowL.png'
-import sliderR from '../../public/images/hover/sliderArrowR.png'
-import play from '../../public/images/hover/play.png'
-import add from '../../public/images/hover/add.png'
-import arrow from '../../public/images/hover/arrow.png'
+import '../../../public/css/CardView.css'
+import '../../../public/css/NetflixOriginals.css'
+import sliderL from '../../../public/images/hover/sliderArrowL.png'
+import sliderR from '../../../public/images/hover/sliderArrowR.png'
+import play from '../../../public/images/hover/play.png'
+import add from '../../../public/images/hover/add.png'
+import arrow from '../../../public/images/hover/arrow.png'
 
 const CardOriginals = ({ imageShow, actualMove }) => {
   const move = {

@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 import React from 'react'
-import '../../public/css/Preview.css'
-import banner from '../../public/images/banner.jpg'
-import bannerLogo from '../../public/images/bannerLogo.png'
-import play from '../../public/images/play.png'
-import info from '../../public/images/info.png'
+import '../../../public/css/Preview.css'
+import banner from '../../../public/images/banner.jpg'
+import bannerLogo from '../../../public/images/bannerLogo.png'
+import play from '../../../public/images/play.png'
+import info from '../../../public/images/info.png'
 
 const Banner = () => (
   <div className="preview">
