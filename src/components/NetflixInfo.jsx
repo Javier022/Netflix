@@ -1,9 +1,9 @@
 import React from 'react'
-import '../css/NetflixInfo.css'
-import facebook from '../images/facebook.png'
-import instagram from '../images/instagram.png'
-import twitter from '../images/twitter.png'
-import youtube from '../images/youtube.png'
+import '../../public/css/NetflixInfo.css'
+import facebook from '../../public/images/facebook.png'
+import instagram from '../../public/images/instagram.png'
+import twitter from '../../public/images/twitter.png'
+import youtube from '../../public/images/youtube.png'
 
 const SocialMedia = () => (
   <div className="netflixInfo">

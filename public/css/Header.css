@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Netflix Sans";
-    src: url('../font/Netflix\ Sans\ Light.otf');
+    src: url('./font/Netflix\ Sans\ Light.otf');
 }
 
 body {

@@ -31,7 +31,7 @@ module.exports = {
     contentBase: 'dist',
   },
   plugins: [new HtmlWebpackPlugin({
-    favicon: './src/images/logo.png',
+    favicon: './public/images/logo.png',
     templateContent:
     `<html>
       <title>Netflix</title>
