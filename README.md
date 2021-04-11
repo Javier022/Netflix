@@ -17,25 +17,8 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
 3. Dentro de la carpeta, correr el comando `npm run serve` para visualizar la página en http://localhost:8080/
 
 # Uso
-* Instalación babel: Para aumentar compatibilidad en web
-  * `npm install @babel/core`
-  * `npm install @babel/preset-env`
-  * `npm install babel-loader`
-* Instalación webpack
-  * `npm install webpack webpack-cli` : Para agilizar dependencias 
-  * `npm install --save-dev html-webpack-plugin` : Para generar el dist 
-* Instalación lint
-  * `npm install eslint eslint-loader`
-  * `npm run lint -- --fix` : Para arreglar errores
-  * `npx eslint --init`
-* Instalación react
-  * `npm install react react-dom`
-* Instalación loaders
-  * `npm install file-loader` : Para cargar imágenes 
-  * `npm install style-loader` : Para cargar css 
-  * `npm install css-loader` : Para cargar css 
-* Instalación proptypes
-  * `npm i -S prop-types` : Para verificar los tipos de atributos
+* Instalación de las librerías
+  * `npm install`
 * Correr página
   * `npm run build`
   * `npm run serve`
@@ -43,10 +26,10 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
 # Tecnologías implementadas
 Tecnología    | Razón de implementación
 ------------- | -----------------------------------------------------------------
-Babel         | Aumentar la compatibilidad de la página con otros navegadores
-Webpack       | Optimiza el agregar dependencias: imágenes, css, React
-Eslint        | Evitar problemas de compilación tras marcar los errores en tiempo real
-React         | Desarrollo ordenado, reutilizable y facilita el mantenimiento 
+Babel         | Aumentar la compatibilidad de la página con otros navegadores Al hacer uso de babel, se puede programar con las últimas características de JavaScript y que esto sea legible en navegadores más antiguos. Por lo mismo, permite que este proyecto pueda ser utilizado por más personas.
+Webpack       | Permite empaquetar y exoirtar todos los archivos necesarios para que el proyecto funcione con todas sus dependencias frontend. Además, cuenta con un servidor para correr la aplicación y un plugin para generar el archivo html. Se hicieron uso de loaders para cargar imágenes y css.
+Eslint        | Evitar problemas de compilación tras marcar los errores en tiempo real. Además de ser personalizable por lo que permite definir qué reglas queremos aplicar en nuestro código. Esto nos ayuda a escribir un mejor código, pues es más legible y nos marca error al haber código innecesario.
+React         | Desarrollo ordenado, reutilizable y facilita el mantenimiento. El hacer uso de componentes nos ahorra código además de garantizar un aspecto uniforme dentro de la aplicación. Además, el Virtual DOM permite aplicar todos los cambios primero al DOM y luego actualizar solo lo que sea necesario. 
 ***
 > © 2021, Andrea Amaya  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
