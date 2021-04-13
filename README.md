@@ -10,6 +10,8 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
 <div align="center"><br><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e57f8b1c-1c99-4f62-b6e7-9f3e3f9d958b/deh7n1v-7b4b9e0f-356d-4890-a7d5-fb5257f6851c.png/v1/fill/w_1216,h_657,q_70,strp/netflix4_by_andrea_smiler_deh7n1v-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02OTIiLCJwYXRoIjoiXC9mXC9lNTdmOGIxYy0xYzk5LTRmNjItYjZlNy05ZjNlM2Y5ZDk1OGJcL2RlaDduMXYtN2I0YjllMGYtMzU2ZC00ODkwLWE3ZDUtZmI1MjU3ZjY4NTFjLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.syhMVRSrETXv14pEIK5cKKtFaOO5Qb4l0P9Px7EHR-I" width="700"></div><figcaption>Fig.4 - Zoom Netflix Originals</figcaption></div>
 
 
+# Visualización
+* Vista previa en: http://ubeje.xyz/19357/Netflix/index.html 
 
 # Instalación
 1. Clonar este repositorio https://github.com/andreamalin/Netflix/
