@@ -30,6 +30,7 @@
 .imagePreview {
     width: 245px;
     height: 152px;
+    object-fit: cover;
 }
 
 .card:hover .infoHover {

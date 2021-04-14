@@ -11,14 +11,14 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
 
 # Características
 * Autoplay del video en el banner
- * Se pausa al bajar cierta cantidad de pixeles el scroll
- * Solo se visualiza el video una vez y luego regresa a la imagen del poster
+  * Se pausa al bajar cierta cantidad de pixeles el scroll
+  * Solo se visualiza el video una vez y luego regresa a la imagen del poster
 * Cambio de color del fondo del header al mover el scroll
 * Aumento de vista en las recomendaciones
- * Diferencia entre la posición y botones de Netflix Originals y recomendaciones normales
+  * Diferencia entre la posición y botones de Netflix Originals y recomendaciones normales
 * Posibilidad de regresar y ver siguiente fila en las recomendaciones
- * El botón de regresar solo aparece cuando hay una fila de recomendaciones anteriores
- * El botón de ver más regresa al inicio al llegar al final de las recomendaciones    
+  * El botón de regresar solo aparece cuando hay una fila de recomendaciones anteriores
+  * El botón de ver más regresa al inicio al llegar al final de las recomendaciones    
 
 # Visualización
 * Vista previa en: http://ubeje.xyz/19357/Netflix/index.html 
