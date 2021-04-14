@@ -9,6 +9,16 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
 <div align="center"><br><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e57f8b1c-1c99-4f62-b6e7-9f3e3f9d958b/deh7n1k-dadddd7d-48e4-474e-8fd1-c7be05ef6e99.png/v1/fill/w_1217,h_657,q_70,strp/netflix3_by_andrea_smiler_deh7n1k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02OTEiLCJwYXRoIjoiXC9mXC9lNTdmOGIxYy0xYzk5LTRmNjItYjZlNy05ZjNlM2Y5ZDk1OGJcL2RlaDduMWstZGFkZGRkN2QtNDhlNC00NzRlLThmZDEtYzdiZTA1ZWY2ZTk5LnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QyF8vFSEWPzeOHwKWptwewGc2c6yqnKSWaAkSUB2z8c" width="700"></div><figcaption>Fig.3 - Zoom recomendaciones</figcaption>
 <div align="center"><br><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e57f8b1c-1c99-4f62-b6e7-9f3e3f9d958b/deh7n1v-7b4b9e0f-356d-4890-a7d5-fb5257f6851c.png/v1/fill/w_1216,h_657,q_70,strp/netflix4_by_andrea_smiler_deh7n1v-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02OTIiLCJwYXRoIjoiXC9mXC9lNTdmOGIxYy0xYzk5LTRmNjItYjZlNy05ZjNlM2Y5ZDk1OGJcL2RlaDduMXYtN2I0YjllMGYtMzU2ZC00ODkwLWE3ZDUtZmI1MjU3ZjY4NTFjLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.syhMVRSrETXv14pEIK5cKKtFaOO5Qb4l0P9Px7EHR-I" width="700"></div><figcaption>Fig.4 - Zoom Netflix Originals</figcaption></div>
 
+# Características
+* Autoplay del video en el banner
+ * Se pausa al bajar cierta cantidad de pixeles el scroll
+ * Solo se visualiza el video una vez y luego regresa a la imagen del poster
+* Cambio de color del fondo del header al mover el scroll
+* Aumento de vista en las recomendaciones
+ * Diferencia entre la posición y botones de Netflix Originals y recomendaciones normales
+* Posibilidad de regresar y ver siguiente fila en las recomendaciones
+ * El botón de regresar solo aparece cuando hay una fila de recomendaciones anteriores
+ * El botón de ver más regresa al inicio al llegar al final de las recomendaciones    
 
 # Visualización
 * Vista previa en: http://ubeje.xyz/19357/Netflix/index.html 
