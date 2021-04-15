@@ -9,8 +9,14 @@ import perfil from '../../public/images/perfil.png'
 import arrow from '../../public/images/arrow.png'
 
 const Options = ({ actualBackground }) => {
+  let gradient = ''
+  if (actualBackground === 'black') {
+    gradient = 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%)'
+  }
+
   const background = {
     backgroundColor: actualBackground,
+    backgroundImage: gradient,
   }
 
   return (
