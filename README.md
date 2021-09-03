@@ -21,7 +21,7 @@ Este proyecto es una copia de la página [Netflix](https://www.netflix.com/brows
   * El botón de ver más regresa al inicio al llegar al final de las recomendaciones    
 
 # Visualización
-* Vista previa en: http://ubeje.xyz/19357/Netflix/index.html 
+* Vista previa en: https://netflix-css-2021.web.app/
 
 # Instalación
 1. Clonar este repositorio https://github.com/andreamalin/Netflix/
